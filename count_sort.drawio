@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T06:50:16.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.5" etag="dJbZFJ9NRJblQKRdKbnK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T06:52:46.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="usqV37OelZ4rBeCMOPOa" version="24.2.5" type="github">
   <diagram name="Page-1" id="WhpOYSPwDscCSI1o2JLr">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="le8S84mGCe8vMf6BlJQ1-1" target="le8S84mGCe8vMf6BlJQ1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="le8S84mGCe8vMf6BlJQ1-2" target="le8S84mGCe8vMf6BlJQ1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-2" value="获取max_num\ min_num," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="220" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="le8S84mGCe8vMf6BlJQ1-3" target="le8S84mGCe8vMf6BlJQ1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-3" value="根据max_num\ min_num,创建count数组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="300" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="le8S84mGCe8vMf6BlJQ1-4" target="le8S84mGCe8vMf6BlJQ1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-4" value="遍历计数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363.5" y="380" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="le8S84mGCe8vMf6BlJQ1-5" target="le8S84mGCe8vMf6BlJQ1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-5" value="根据计数结果写回nums" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="450" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="le8S84mGCe8vMf6BlJQ1-10" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
