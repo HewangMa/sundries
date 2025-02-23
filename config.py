@@ -14,7 +14,7 @@ console_handler.setFormatter(formatter)
 console_handler.setLevel(logging.INFO)  # 终端输出INFO及以上级别
 
 file_handler = logging.FileHandler(
-    filename="/mnt/mechanical/projects/toolbox/toolbox.log",
+    filename="D:\\Projects\\sundries\\toolbox.log",
     encoding='utf-8',
     mode='a'
 )
@@ -28,4 +28,3 @@ if not logger.handlers:
 if __name__ == "__main__":
     logger.debug("调试信息示例")
     logger.info("普通信息示例")
-    logger.warning("警告信息示例")

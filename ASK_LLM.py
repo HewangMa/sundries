@@ -50,7 +50,8 @@ def get_embeddings():
     print(completion.model_dump_json())
 
 
-if __name__ == "__main__":
+def zhanpu():
+
     # parser = argparse.ArgumentParser(description="处理多参数示例")
     # parser.add_argument("question", help="输入问题")
     # args = parser.parse_args()
@@ -117,8 +118,15 @@ if __name__ == "__main__":
             这段代码用来从vid生成thumb，如何支持thumb的名称中含有中文？
     '''
 
-    rule4='你是一个windows开发专家'
-    question4='''
+    rule4 = '你是一个windows开发专家'
+    question4 = '''
         我的windows11的shift切换中英文输入法关闭了，如何打开？
     '''
     ask_llm(qwen_client, model3, rule2, question2)
+
+
+if __name__ == "__main__":
+    question = '''
+        if __name__ == "__main__":
+    '''
+    ask_llm(deepseek_client, "deepseek-reasoner", "你是一个聊天专家", question)
